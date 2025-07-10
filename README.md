@@ -5,11 +5,10 @@ Este projeto é um sistema simples de gestão para clínicas, com funcionalidade
 ---
 
 ## 📁 Estrutura do Projeto
-
-├── schema.sql # Criação do banco de dados e tabelas
-├── dados-exemplo.sql # Dados fictícios para testes
-├── consultas.sql # Consultas SQL de exemplo
-└── diagrama.png # Diagrama entidade-relacionamento do banco
+- schema.sql # Criação do banco de dados e tabelas
+- dados-exemplo.sql # Dados fictícios para testes
+- consultas.sql # Consultas SQL de exemplo
+- diagrama.png # Diagrama entidade-relacionamento do banco
 
 ## 💻 Tecnologias Utilizadas
 
@@ -21,6 +20,11 @@ Este projeto é um sistema simples de gestão para clínicas, com funcionalidade
 
 ### 1. Clone o repositório
 
-```bash
 git clone https://github.com/lucasgcavalcante/A3-projeto-integrador
 cd seu-repositorio
+
+### 2. Banco de Dados
+- Crie o banco de dados no PostgreSQL.
+- Execute o `schema.sql` para criar as tabelas.
+- (Opcional) Execute o `dados-exemplo.sql` para popular com dados fictícios.
+- (Opcional) Execute as consultas em `consultas.sql` para testar.
